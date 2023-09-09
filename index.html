@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya</title>
+    <link rel="stylesheet" href="style.css" />
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo-container">
+            <img
+              class="logo"
+              src="https://cutedp.in/wp-content/uploads/2022/12/Letter-A-Name-Dp.jpg"
+              alt=""
+            />
+            <div class="logo-text">ditya</div>
+          </div>
+          <div class="nev-item">
+            <div><a href="#project">Project</a></div>
+            <div><a href="#skills">skills</a></div>
+            <div><a href="#contact">contact</a></div>
+          </div>
+        </div>
+
+        <div class="hero-section">
+          <div class="hero-section-left">
+            <div class="hero-sectiomn-heading">Hi ! Aditya Saini</div>
+            <div class="hero-section-heading hero-section-sub-heading">
+              I am a <span class="role"></span>
+            </div>
+            <div class="hero-section-description">
+              i'm a software developer and here is my portfolio website. Here
+              you'll learn about my joureny as a software developer.
+            </div>
+            <div class="btn-pink" id="btn">Hire me</div>
+          </div>
+          <div class="hero-section-right">
+            <div class="user-image">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="faded-text">Aditya saini</div>
+        </div>
+      </div>
+
+      <div class="project-section" id="project">
+        <h2 class="page-header">Projects</h2>
+        <div class="project-container">
+          <div class="project-card" id="project1">
+            <div class="project-number project-number-right">01</div>
+            <div class="project-content project-content-left">
+              <div class="project-skill-container">
+                <img
+                  height="50px"
+                  src="./skill icon/html.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/css.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/js.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/express.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/nodejs.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/tailwind.jpeg"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/mongo.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/redux.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/vercel.png"
+                  alt=""
+                  class="project-skill"
+                />
+              </div>
+
+              <h2 class="project-heading">Tint & Orange</h2>
+              <div class="project-subheading">
+                Its is a car Modification whic provide you sheets to protect
+                your car from scratch
+              </div>
+              <div class="btn-grp">
+                <div class="btn-pink btn-project">Read More</div>
+                <a href="">
+                  <i title="GitHubLink" class="fa fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" id="project2">
+            <div class="project-number project-number-left">02</div>
+            <div class="project-content project-content-right">
+              <div class="project-skill-container">
+                <img
+                  height="50px"
+                  src="./skill icon/js.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/express.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/nodejs.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/tailwind.jpeg"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/mongo.png"
+                  alt=""
+                  class="project-skill"
+                />
+              </div>
+              <h2 class="project-heading">Breaking copyrights</h2>
+              <div class="project-subheading">
+                A platform to dowload copyrights free youtbe music
+              </div>
+              <div class="btn-grp">
+                <div class="btn-pink btn-project">Read More</div>
+                <a href="">
+                  <i title="GitHubLink" class="fa fa-github icon"></i>
+                </a>
+
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" id="project3">
+            <div class="project-number project-number-right">03</div>
+            <div class="project-content project-content-left">
+              <div class="project-skill-container">
+                <img
+                  height="50px"
+                  src="./skill icon/html.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/css.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/js.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/express.png"
+                  alt=""
+                  class="project-skill"
+                />
+              </div>
+              <h2 class="project-heading">Isha Tattva</h2>
+              <div class="project-subheading">
+                A Wabsite forr interior designer to showcase her work and
+                samples
+              </div>
+              <div class="btn-grp">
+                <div class="btn-pink btn-project">Read More</div>
+                <a href="">
+                  <i title="GitHubLink" class="fa fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" id="project4">
+            <div class="project-number project-number-left">04</div>
+            <div class="project-content project-content-right">
+              <div class="project-skill-container">
+                <img
+                  height="50px"
+                  src="./skill icon/mongo.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/redux.png"
+                  alt=""
+                  class="project-skill"
+                />
+                <img
+                  height="50px"
+                  src="./skill icon/vercel.png"
+                  alt=""
+                  class="project-skill"
+                />
+              </div>
+              <h2 class="project-heading">Granit</h2>
+              <div class="project-subheading">
+                A architectural wabsite to plan your Building or home
+              </div>
+              <div class="btn-grp">
+                <div class="btn-pink btn-project">Read More</div>
+                <a href="">
+                  <i title="GitHubLink" class="fa n fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-container container" id="skills">
+        <div class="skill-fade-text">Skills</div>
+        <div class="skill-container-left">
+          <h2 class="skill-heading">
+            <spam class="caps">M</spam>e and
+            <br />
+            MyTech Stack
+          </h2>
+          <div class="skill-subHeading">
+            <p>
+              Hi Everyone My name is John Doe I am a Full Stack Web Developer I
+              have been working for last 3 Years and Currently I am working with
+              a Budding Startup in USA and a full Time Freelancer. Currently I
+              am working on NextJs and Making Beautiful UI-UX are my fey
+              features
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              doloremque aspernatur, maiores voluptatum minus laudantium?
+              Perspiciatis accusamus minima porro dolores necessitatibus, magni
+              dolorem et qui veniam nulla sequi molestiae maxime.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              quidem quos ullam veritatis voluptates tenetur qui ipsa nulla
+              culpa itaque?
+            </p>
+          </div>
+        </div>
+        <div class="skill-container-right">
+          <img src="./skills/blob vector.svg" alt="" class="blob-style" />
+
+          <img src="./skills/html-5.png" alt="" class="skill-logo" />
+          <img src="./skills/css-3.png" alt="" class="skill-logo" />
+          <img src="./skills/js.png" alt="" class="skill-logo" />
+          <img src="./skills/nextjs.png" alt="" class="skill-logo" />
+          <img src="./skills/nodejs.png" alt="" class="skill-logo" />
+          <img src="./skills/tailwind.png" alt="" class="skill-logo" />
+          <img src="./skills/java.png" alt="" class="skill-logo" />
+          <img src="./skills/c-.png" alt="" class="skill-logo" />
+          <img src="./skills/coding.png" alt="" class="skill-logo" />
+          <img src="./skills/django.png" alt="" class="skill-logo" />
+          <img src="./skills/git.png" alt="" class="skill-logo" />
+          <img src="./skills/github.png" alt="" class="skill-logo" />
+          <img src="./skills/mongo.png" alt="" class="skill-logo" />
+          <img src="./skills/react.png" alt="" class="skill-logo" />
+          <img src="./skills/python.png" alt="" class="skill-logo" />
+          <img src="./skills/coding.png" alt="" class="skill-logo" />
+          <img src="./skills/django.png" alt="" class="skill-logo" />
+          <img src="./skills/html-5.png" alt="" class="skill-logo" />
+          <img src="./skills/css-3.png" alt="" class="skill-logo" />
+          <img src="./skills/tailwind.png" alt="" class="skill-logo" />
+        </div>
+      </div>
+
+      <div class="contactus-form-container" id="contact">
+        <div class="container">
+          <h1 class="contactus-heading">Contact me</h1>
+          <h3 class="contactus-subheading">
+            Question, thoughts, or just want to say hello?
+          </h3>
+          <div class="contactus-form-container">
+            <form action="" class="form">
+              <div class="formfield-container">
+                <input
+                  type="text"
+                  name="name"
+                  id=""
+                  class="formfield"
+                  placeholder="Enter your name"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id=""
+                  class="formfield"
+                  placeholder="Enter your email address"
+                />
+                <input
+                  type="text"
+                  name="subject"
+                  id=""
+                  class="formfield"
+                  placeholder="Enter your subject"
+                />
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="formfield formfield-textarea"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn-pink" id="submit-btn">
+                  send Message
+                  <i class="submit-icon fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-faded-text">Aditya Saini</div>
+            <div class="link-wraper">
+              <div>
+                <a href="#project">Project</a>
+              </div>
+              <div>
+                <a href="#skills">Skills</a>
+              </div>
+              <div>
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+            <div class="icon-wrapper">
+              <i class="fab fa-linkedin icon"></i>
+              <i class="fa-brands fa-github icon"></i>
+              <i class="fa-brands fa-twitter icon"></i>
+              <i class="fa-brands fa-instagram icon"></i>
+              <i class="far fa-envelope icon"></i>
+
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymo"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
